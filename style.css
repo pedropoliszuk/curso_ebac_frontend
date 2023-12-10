@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 200px;
+    display: block;
+}
+
+form {
+    margin-left: 250px;
+}
+
+form label {
+    display: block;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
